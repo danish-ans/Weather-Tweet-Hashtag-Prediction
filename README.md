@@ -20,14 +20,13 @@ The project uses a Many-to-Many Encoder-Decoder Sequence Model with LSTM network
 
 ## Data Source
 
-The dataset for this project is sourced from the [Kaggle CrowdFlower Weather Twitter competition](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data).
+The dataset for this project is sourced from the [Kaggle](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data).
 
 ## Project Structure
 
 - **train.csv**: Training data containing tweets, locations, and confidence scores for 24 labels across the three categories.
 - **test.csv**: Testing data with tweets and locations.
 - **Twitter Hashtag prediction over weather report tweets.ipynb**: Jupyter notebook to create and train the model, predicting hashtags from input tweets.
-- **s2s_model.h5**: File storing the trained model's weights.
 - **contractions.pkl**: Dictionary of contractions and their expansions.
 
 ## Usage
